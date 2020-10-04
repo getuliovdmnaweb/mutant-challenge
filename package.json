@@ -1,0 +1,26 @@
+{
+  "name": "mutant-challenge",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "class-validator": "^0.12.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "reflect-metadata": "^0.1.10",
+    "typeorm": "0.2.28"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/express": "^4.17.8",
+    "@types/node": "^8.0.29",
+    "nodemon": "^2.0.4",
+    "ts-node": "3.3.0",
+    "typescript": "3.3.3333"
+  },
+  "scripts": {
+    "start": "ts-node src/app.ts"
+  }
+}
