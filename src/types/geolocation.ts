@@ -1,4 +1,4 @@
 export interface Geolocation {
   lat: string;
-  long: string;
+  lng: string;
 }
