@@ -21,6 +21,8 @@
     "typescript": "3.3.3333"
   },
   "scripts": {
-    "start": "ts-node src/app.ts"
+    "start": "ts-node src/app.ts",
+    "build": "tsc -p .",
+    "deploy": "node build/app.js"
   }
 }
