@@ -9,7 +9,11 @@ REST Api Using
 
 
 ### Installing Dependencies
-  - To Install the dependencies run `yarn install`
+  - You must have docker-compose and its dependencies installed.
 
 ### Running the Application
-  - To Run the Application run `yarn build`
+  - To Run the Application run `docker-compose up`
+  
+### Endpoits
+  - /users Downloading All User
+  - /users/save Saving All Users with suite = Suite
